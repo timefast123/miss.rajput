@@ -20,7 +20,7 @@ import img22 from './Images/22.jpeg'
 
 function App() {
   return (
-    <div className="scroll-smooth h-screen">
+    <div className="scroll-smooth h-screen pointer-events-none">
       <Navbar/>
       <div className="w-full md:block hidden">
         <div className="md:flex hidden justify-between">
